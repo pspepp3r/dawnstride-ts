@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="game.css">
+    <script type="module" src="dist/game.js" defer></script>
+
+    <title>Dawnstride: The Mirror War</title>
+</head>
+<body>
+    
+    <div class="game-container">
+        <div class="header">
+            <h2>Dawnstride: The Mirror War</h2>
+        </div>
+        <div class="stats-container">
+            <div class="stat">
+                <span id="health-value">100</span>
+                <span class="stat-label">Health</span>
+            </div>
+            <div class="stat">
+                <span id="gold-value">50</span>
+                <span class="stat-label">Gold</span>
+            </div>
+            <div class="stat">
+                <span id="strength-value">10</span>
+                <span class="stat-label">Strength</span>
+            </div>
+        </div>
+        
+        <div id="story-text" class="story-text">
+            Welcome to your adventure! What will you do?
+        </div>
+        
+        <div id="choices" class="choices-container">
+            <!-- Choices will be inserted here by JavaScript -->
+        </div>
+        
+        <div class="inventory-container">
+            <h3>Inventory</h3>
+            <ul id="inventory-items">
+                <li>Empty</li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>

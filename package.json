@@ -1,0 +1,12 @@
+{
+	"name": "dawnstride-ts",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"type": "commonjs",
+	"main": "game.js",
+	"scripts": {
+		"prepare": "tsc && node fix-imports.js && echo \"Finished Compiling!\""
+	}
+}
